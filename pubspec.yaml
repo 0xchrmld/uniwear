@@ -1,0 +1,24 @@
+name: uniwear
+version: 2.1.0+2
+description: UniWear - New Era University uniform ordering app.
+publish_to: none
+
+environment:
+  sdk: '>=3.9.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: 2.5.5
+  supabase_flutter: 2.18.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/products/
+    - assets/brand/
+    - assets/original_photos/
