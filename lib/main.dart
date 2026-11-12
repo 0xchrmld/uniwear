@@ -1473,7 +1473,7 @@ class _AdminPageState extends State<AdminPage> {
               0, (sum, order) => sum + (order['total_php'] as int))))),
           ]),
           const SizedBox(height: 22),
-          const SectionTitle('Manage orders'),
+          SectionTitle('Manage orders'),
           const SizedBox(height: 12),
           if (widget.store.adminOrders.isEmpty)
             Text('No orders have been placed yet.', style: TextStyle(color: textMuted)),
